@@ -9,5 +9,5 @@ export default function PrivateRoute({ children}) {
       return children
     }
       
-    return <Navigate to="/home" />
+    return <Navigate to="/login" />
   }
