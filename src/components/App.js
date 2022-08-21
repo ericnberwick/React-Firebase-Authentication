@@ -16,7 +16,7 @@ function App() {
         <Router>
           <AuthProvider>
             <Switch>
-              <Route exact path="/" element={<Dashboard/>} />
+              <Route exact path="/home" element={<Dashboard/>} />
               <Route path="/signup" element={<Signup/>} />
             </Switch>
           </AuthProvider>
