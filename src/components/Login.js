@@ -23,7 +23,7 @@ export default function Login() {
           setError("")
           setLoading(true)
           await login(emailRef.current.value, passwordRef.current.value)
-          navigate('/home');
+          navigate('/');
         } catch {
           setError("Failed to Log In")
         }
@@ -37,6 +37,8 @@ export default function Login() {
         <Card.Body>
           <h2 className="text-center mb-4">Log In</h2>
           {error && <Alert variant="danger">{error}</Alert>}
+          {useAuth.currentUser && <h1>You are signed in: {useAuth.currentUser.emailRef}</h1>}
+          {!useAuth.currentUser && <h1>You are not signed in</h1>}
           <Form onSubmit={handleSubmit}>
             <Form.Group id="email">
               <Form.Label>Email</Form.Label>

@@ -8,6 +8,14 @@ import Login from "./Login";
 import PrivateRoute from "./PrivateRoute";
 import ForgotPassword from "./ForgotPassword"
 import UpdateProfile from "./UpdateProfile";
+import Main from "./Main";
+import Navbar from "./Navbar"
+import Pricing from "../pages/Pricing"
+import Home from "../pages/Home"
+import About from "../pages/About"
+import "@fontsource/league-spartan"; //npm install @fontsource/league-spartan
+
+
 
 function App() {
   
@@ -20,8 +28,9 @@ function App() {
         <Router>
           <AuthProvider>
             <Switch>
-            <Route exact path="/home" element={<PrivateRoute><Dashboard/></PrivateRoute>} />
-            <Route exact path="/update-profile" element={<PrivateRoute><UpdateProfile/></PrivateRoute>} />
+              <Route path="/" element={<Main/>} />
+              <Route exact path="/home" element={<PrivateRoute><Dashboard/></PrivateRoute>} />
+              <Route exact path="/update-profile" element={<PrivateRoute><UpdateProfile/></PrivateRoute>} />
               <Route path="/signup" element={<Signup/>} />
               <Route path="/login" element={<Login/>} />
               <Route path="/forgot-password" element={<ForgotPassword/>} />

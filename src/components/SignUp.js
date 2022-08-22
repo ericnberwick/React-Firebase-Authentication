@@ -27,7 +27,7 @@ export default function Signup() {
           setError("")
           setLoading(true)
           await signup(emailRef.current.value, passwordRef.current.value)
-          navigate('/login');
+          navigate('/');
         } catch {
           setError("Failed to create an account")
         }
@@ -41,6 +41,8 @@ export default function Signup() {
             <Card.Body>
                 <h2 className='text-center mb-4'>Sign Up</h2>
                 {error && <Alert variant="danger">{error}</Alert>}
+                {useAuth.currentUser && <h1>You are signed in: {useAuth.currentUser.emailRef}</h1>}
+          {!useAuth.currentUser && <h1>You are not signed in</h1>}
                 <Form onSubmit={handleSubmit}>
                     <Form.Group id="email">
                         <Form.Label>Email</Form.Label>
