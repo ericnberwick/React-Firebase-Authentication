@@ -41,6 +41,7 @@ h1 {
   flex: 1;
   margin: 0 1rem;
   border-radius: 0px;
+  transition: 0.4s ease-in-out;
 }
 
 
@@ -57,7 +58,7 @@ h1 {
   height: calc(100% + 4px);
   animation: glowing 20s linear infinite;
   opacity: 0;
-  transition: opacity .3s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 
 .cards__item:active {
