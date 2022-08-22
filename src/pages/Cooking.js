@@ -1,10 +1,10 @@
 import Navbar from "../components/Navbar"
-
+import CookingCards from "../components/cards/CookingCards"
 export default function Cooking() {
   return (
     <>
     <Navbar />
-    <h1>Cooking</h1>
+    <CookingCards section={"Cooking"}/>
     
     
     

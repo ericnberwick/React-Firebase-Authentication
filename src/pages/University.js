@@ -1,10 +1,10 @@
 import Navbar from "../components/Navbar"
-
+import UniversityCards from "../components/cards/UniversityCards"
 export default function University() {
   return (
     <>
     <Navbar />
-    <h1>University</h1>
+    <UniversityCards section={"University"} />
     
     
     

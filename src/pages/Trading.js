@@ -1,10 +1,10 @@
 import Navbar from "../components/Navbar"
-
+import TradingCards from "../components/cards/TradingCards"
 export default function Trading() {
   return (
     <>
     <Navbar />
-    <h1>Trading</h1>
+    <TradingCards section={"Trading"}/>
     
     
     

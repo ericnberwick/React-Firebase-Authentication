@@ -1,11 +1,11 @@
 import Navbar from "../components/Navbar"
 import PApp from "../pdf/src/PApp"
+import BookCards from "../components/cards/BookCards"
 export default function Books() {
   return (
   <>
   <Navbar />
-  <h1>Books</h1>
-  <PApp />
+  <BookCards section={"Books"}/>
   
   
   </>
