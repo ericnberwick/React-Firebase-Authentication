@@ -1,15 +1,13 @@
-import React, { useState } from "react"
-import { useAuth } from "../contexts/AuthContext"
-import { Link, useNavigate } from "react-router-dom"
+import React from "react"
 import Navbar from "./Navbar";
 import "../css/Main.css";
-
+import Cards from "../components/Cards"
 export default function Main() {
 
   return (
     <>
-      
       <Navbar />
+      <Cards />
     </>
   )
 }

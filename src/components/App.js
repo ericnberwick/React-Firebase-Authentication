@@ -14,7 +14,12 @@ import Pricing from "../pages/Pricing"
 import Home from "../pages/Home"
 import About from "../pages/About"
 import "@fontsource/league-spartan"; //npm install @fontsource/league-spartan
-
+import Books from "../pages/Books";
+import Computing from "../pages/Computing";
+import Cooking from "../pages/Cooking";
+import Photography from "../pages/Photography";
+import Trading from "../pages/Trading";
+import University from "../pages/University";
 
 
 function App() {
@@ -33,6 +38,12 @@ function App() {
               <Route exact path="/update-profile" element={<PrivateRoute><UpdateProfile/></PrivateRoute>} />
               <Route path="/signup" element={<Signup/>} />
               <Route path="/login" element={<Login/>} />
+              <Route path="/books" element={<Books/>} />
+              <Route path="/computing" element={<Computing/>} />
+              <Route path="/cooking" element={<Cooking/>} />
+              <Route path="/photography" element={<Photography/>} />
+              <Route path="/trading" element={<Trading/>} />
+              <Route path="/university" element={<University/>} />
               <Route path="/forgot-password" element={<ForgotPassword/>} />
             </Switch>
           </AuthProvider>

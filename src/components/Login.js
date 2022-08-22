@@ -4,7 +4,7 @@ import { Form, Button, Card, Alert } from "react-bootstrap"
 import { useAuth } from "../contexts/AuthContext"
 import { useNavigate } from 'react-router-dom';
 import { Link } from "react-router-dom";
-
+import Navbar from "./Navbar.js"
 
 export default function Login() {
     const emailRef = useRef()
@@ -33,6 +33,9 @@ export default function Login() {
 
   return (
     <>
+    
+    <Navbar />
+      <h1>hello</h1>
       <Card>
         <Card.Body>
           <h2 className="text-center mb-4">Log In</h2>

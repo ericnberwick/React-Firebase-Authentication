@@ -4,7 +4,7 @@ import { Form, Button, Card, Alert } from "react-bootstrap"
 import { useAuth } from "../contexts/AuthContext"
 import { useNavigate } from 'react-router-dom';
 import { Link } from "react-router-dom";
-
+import Navbar from "./Navbar";
 
 export default function Signup() {
     const emailRef = useRef()
@@ -37,6 +37,7 @@ export default function Signup() {
 
   return (
     <>
+    <Navbar />
         <Card>
             <Card.Body>
                 <h2 className='text-center mb-4'>Sign Up</h2>

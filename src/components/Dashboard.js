@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { Card, Button, Alert } from "react-bootstrap"
 import { useAuth } from "../contexts/AuthContext"
 import { Link, useNavigate } from "react-router-dom"
-
+import Navbar from "./Navbar.js"
 export default function Dashboard() {
   const [error, setError] = useState("")
   const { currentUser, logout } = useAuth()
@@ -21,6 +21,7 @@ export default function Dashboard() {
  
   return (
     <>
+    <Navbar />
       <Card>
         <Card.Body>
           <h2 className="text-center mb-4">Profile</h2>
