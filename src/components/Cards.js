@@ -7,7 +7,6 @@ import Carrots from "../pics/notEdV3.jpg"
 import Cress from "../pics/notEdV3.jpg"
 import Pots from "../pics/notEdV3.jpg"
 
-
 /**
  * Function to return the cards section under the headers of the home page, Uses a react library called cards, pretty simple
  * Not implemented yet just renders the items
@@ -22,32 +21,73 @@ function Cards({section}) {
           <ul className="cards__items">
             <CardItem
               src={Carrots}
-              text="How to grow any carrot!"
-              path="/art9"
+              text="HTML for Beginners"
+              path="/html1"
+            />
+          
+            <CardItem
+              src={Tomato}
+              text="CSS for Beginners"
+              path="/art3"
             />
             <CardItem
-              src={Plants}
-              text="How to make your flat look better with plants!"
-              path="/art10"
+              src={Tomato}
+              text="Developing Websites Locally"
+              path="/art3"
             />
           </ul>
           <ul className="cards__items">
             <CardItem
+              src={Carrots}
+              text="Improved Styling CSS"
+              path="/html1"
+            />
+          
+            <CardItem
               src={Tomato}
-              text="Why not grow a Tomato Plant?"
+              text="Fundamentals of Web Design"
               path="/art3"
             />
             <CardItem
-              src={Cress}
-              text="Learn how to make your water cress taste delicious!"
-              label="Trending"
-              path="/art12"
+              src={Tomato}
+              text="Making a Website Responsive"
+              path="/art3"
+            />
+          </ul>
+          <ul className="cards__items">
+            <CardItem
+              src={Carrots}
+              text="JavaScipt for Beginners"
+              path="/html1"
+            />
+          
+            <CardItem
+              src={Tomato}
+              text="JavaScript for Intermediate"
+              path="/art3"
             />
             <CardItem
-              src={Pots}
-              text="What benefits keeping plants in your house is doing for you!"
-              label="Trending"
-              path="/art13"
+              src={Tomato}
+              text="JavaScript Testing"
+              path="/art3"
+            />
+          </ul>
+          <ul className="cards__items">
+            <CardItem
+              src={Carrots}
+              text="Asyn JavaScript and HTTP Requests"
+              path="/html1"
+            />
+          
+            <CardItem
+              src={Tomato}
+              text="React"
+              path="/art3"
+            />
+            <CardItem
+              src={Tomato}
+              text="Redux"
+              path="/art3"
             />
           </ul>
         </div>

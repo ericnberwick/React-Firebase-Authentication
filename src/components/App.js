@@ -12,7 +12,7 @@ import Main from "./Main";
 import Navbar from "./Navbar"
 import Pricing from "../pages/Pricing"
 import Home from "../pages/Home"
-import About from "../pages/About"
+import HTML1 from "../pages/computing/HTML1"
 import "@fontsource/league-spartan"; //npm install @fontsource/league-spartan
 import Books from "../pages/Books";
 import Computing from "../pages/Computing";
@@ -37,6 +37,7 @@ function App() {
               <Route exact path="/home" element={<PrivateRoute><Dashboard/></PrivateRoute>} />
               <Route exact path="/update-profile" element={<PrivateRoute><UpdateProfile/></PrivateRoute>} />
               <Route path="/signup" element={<Signup/>} />
+              <Route path="/html1" element={<HTML1/>} />
               <Route path="/login" element={<Login/>} />
               <Route path="/books" element={<Books/>} />
               <Route path="/computing" element={<Computing/>} />
