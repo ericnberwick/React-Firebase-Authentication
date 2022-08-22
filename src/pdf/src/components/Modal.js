@@ -5,7 +5,7 @@ import { Viewer } from '@react-pdf-viewer/core';
 
 // Import the styles
 import '@react-pdf-viewer/core/lib/styles/index.css';
-
+import "./Modal.css"
 import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
 
 // Import styles
