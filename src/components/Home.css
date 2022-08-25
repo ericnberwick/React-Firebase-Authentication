@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@800&family=Manrope:wght@800&family=Nunito:wght@900&family=Sora:wght@800&family=Space+Mono&display=swap');
+
 .hero-container > h1 {
   color: #fff;
   font-size: 100px;
@@ -52,9 +54,7 @@
 }
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Nunito";
 }
 
 .background-image {
@@ -85,4 +85,11 @@
   object-fit: contain;
 }
 
-
+.ed {
+  color: rgb(0, 0, 250);
+  font-family: 'Nunito';
+}
+.para {
+  font-weight: 500;
+  font-family: 'Nunito';
+}
