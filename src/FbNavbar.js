@@ -103,7 +103,6 @@ function ComputingDropdownMenu() {
           <DropdownItem leftIcon={<Sql />}>SQL</DropdownItem>
           <DropdownItem leftIcon={<Security />}>Security</DropdownItem>
           <DropdownItem leftIcon={<Git />} >Git</DropdownItem>
-          <DropdownItem leftIcon={''} ></DropdownItem>
         </div>
       </CSSTransition>
 
@@ -121,7 +120,6 @@ function ComputingDropdownMenu() {
           <DropdownItem leftIcon={<CSSIcon />}>CSS</DropdownItem>
           <DropdownItem leftIcon={<JSIcon />}>JavaScript</DropdownItem>
           <DropdownItem leftIcon={<ReactIcon />}>React</DropdownItem>
-          <DropdownItem leftIcon={''} ></DropdownItem>
         </div>
       </CSSTransition>
 
@@ -181,7 +179,6 @@ function AccountDropdownMenu() {
           <DropdownItem leftIcon={<UserIcon />}>Account</DropdownItem>
           <DropdownItem leftIcon={<CogIcon />} >Update Account</DropdownItem>
           <DropdownItem leftIcon={<LogoutIcon />} >Logout</DropdownItem>
-          <DropdownItem leftIcon={''} ></DropdownItem>
         </div>
       </CSSTransition>
     </div>

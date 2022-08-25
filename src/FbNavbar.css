@@ -3,11 +3,12 @@ body{
   -moz-osx-font-smoothing: grayscale;
 }
 .fh2 {
+  margin-top: 20px;
   font-size: 120%;
   
 }
 .firstItem{
-  margin-top: 10px;
+  
 }
 .flogo {
   position: absolute;
@@ -108,14 +109,13 @@ body{
   border: 1px solid black;
   border-radius: 8px;
   font-size: 110%;
-  padding: 1.3rem;
+  padding: 0rem;
   overflow: hidden;
   transition:height 0.3s ease-in-out;
 }
 
 .fmenu {
   
-  transition:height 0.3s ease-in-out;
   width: 100%;
 }
 
