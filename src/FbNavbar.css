@@ -97,7 +97,15 @@ body{
   height: 50px;
 }
 
-
+.alink{
+  color:#dadce1;
+  text-decoration: none;
+}
+.mlink{
+  margin-top: 15px;
+  color:#dadce1;
+  text-decoration: none;
+}
 /* Dropdown Menu */
 
 .fdropdown {

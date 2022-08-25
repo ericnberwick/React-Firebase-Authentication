@@ -1,5 +1,4 @@
 import './FbNavbar.css';
-
 import { ReactComponent as UserIcon } from './icons/user.svg';
 import { ReactComponent as CogIcon } from './icons/cog.svg';
 import { ReactComponent as Computer } from './icons/computer.svg';
@@ -24,14 +23,14 @@ function FbNavbar() {
   return (
     <Navbar>
       <NavItem icon={''} />
-      <NavItem icon={'Books'} />
+      <Link className="mlink"  to="/books"><NavItem icon={'Books'} /></Link>
       <NavItem icon={'Computing'} >
         <ComputingDropdownMenu></ComputingDropdownMenu>
       </NavItem>
-      <NavItem icon={'Cooking'} />
-      <NavItem icon={'Photography'} />
-      <NavItem icon={'Trading'} />
-      <NavItem icon={'University'} />
+      <Link className="mlink"  to="/books"><NavItem icon={'Cooking'} /></Link>
+      <Link className="mlink"  to="/photography"><NavItem icon={'Photography'} /></Link>
+      <Link className="mlink"  to="/trading"><NavItem icon={'Trading'} /></Link>
+      <Link className="mlink"  to="/university"><NavItem icon={'University'} /></Link>
       <NavItem className= "userNav" icon={<UserIcon />}>
         <AccountDropdownMenu></AccountDropdownMenu>
       </NavItem>
@@ -95,7 +94,7 @@ function ComputingDropdownMenu() {
         unmountOnExit
         onEnter={calcHeight}>
         <div className="fmenu">
-          <DropdownItem leftIcon={<Computer />}>Computing</DropdownItem>
+          <DropdownItem leftIcon={<Computer />}><Link className="alink"  to="/computing">Computing</Link></DropdownItem>
           <DropdownItem leftIcon={<ReactIcon />} goToMenu="settings">Web Dev</DropdownItem>
           <DropdownItem leftIcon={<Csharp />} >C#</DropdownItem>
           <DropdownItem leftIcon={<Java />}>Java</DropdownItem>
@@ -176,13 +175,26 @@ function AccountDropdownMenu() {
         unmountOnExit
         onEnter={calcHeight}>
         <div className="fmenu">
-          <DropdownItem leftIcon={<UserIcon />}>Account</DropdownItem>
-          <DropdownItem leftIcon={<CogIcon />} >Update Account</DropdownItem>
-          <DropdownItem leftIcon={<LogoutIcon />} >Logout</DropdownItem>
+          <DropdownItem leftIcon={<UserIcon />}><Link className="alink"  to="/home">Account</Link></DropdownItem>
+          <DropdownItem leftIcon={<CogIcon />} ><Link className="alink"  to="/update-profile">Update Account</Link></DropdownItem>
+          <DropdownItem leftIcon={<LogoutIcon />} ><Link className="alink"  to="/update-profile">Logout</Link></DropdownItem> 
+          {/* ^^make redirect to home and logout ^^*/}
         </div>
       </CSSTransition>
     </div>
   );
 }
+function CustomLink({ to, children, ...props }) {
+  const resolvedPath = useResolvedPath(to)
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true })
 
+  return (
+    
+    <li className={isActive ? "active" : ""}>
+      <Link to={to} {...props}>
+        {children}
+      </Link>
+    </li>
+  )
+}
 export default FbNavbar;
