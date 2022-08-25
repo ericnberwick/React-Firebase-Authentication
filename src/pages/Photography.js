@@ -5,7 +5,7 @@ export default function Photography() {
   return (
     <>
     <FbNavbar />
-    <PhotographyCards />
+    <PhotographyCards section={"Photography"}/>
     <Footer />
     
     

@@ -1,12 +1,12 @@
-import Navbar from "../components/Navbar"
+import Footer from "../components/Footer"
+import FbNavbar from "../FbNavbar"
 import PApp from "../pdf/src/PApp"
 import BookCards from "../components/cards/BookCards"
 export default function Books() {
   return (
   <>
-  <Navbar />
+  <FbNavbar />
   <BookCards section={"Books"}/>
-  
   
   </>
   )

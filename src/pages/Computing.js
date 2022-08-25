@@ -1,9 +1,10 @@
-import Navbar from "../components/Navbar"
+import Footer from "../components/Footer"
+import FbNavbar from "../FbNavbar"
 import Cards from "../components/Cards"
 export default function Computing() {
   return (
     <>
-    <Navbar />
+    <FbNavbar />
     <Cards section={"Computing"}/>
     
     

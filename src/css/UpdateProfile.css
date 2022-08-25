@@ -1,0 +1,19 @@
+.thing1 {
+    width: 25%;
+    height: 50%;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    text-align: center;
+    /* border: 5px solid red; */
+}
+.everything {
+    /* border: 5px solid rgb(68, 252, 7); */
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+    display: inline-block;
+}

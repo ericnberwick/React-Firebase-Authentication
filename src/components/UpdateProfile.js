@@ -5,7 +5,8 @@ import { useAuth } from "../contexts/AuthContext"
 import { Link } from "react-router-dom"
 import { useNavigate } from 'react-router-dom';
 import Navbar from "./Navbar.js"
-
+import "../css/UpdateProfile.css"
+import FbNavbar from "../FbNavbar";
 
 export default function UpdateProfile() {
   const emailRef = useRef()
@@ -47,8 +48,10 @@ export default function UpdateProfile() {
 
   return (
     <>
-    <Navbar />
-      <Card>
+    <div className="everything">
+    <FbNavbar />
+    <div className="thing1">
+      <Card className="thing2">
         <Card.Body>
           <h2 className="text-center mb-4">Update Profile</h2>
           {error && <Alert variant="danger">{error}</Alert>}
@@ -86,6 +89,8 @@ export default function UpdateProfile() {
       </Card>
       <div className="w-100 text-center mt-2">
         <Link to="/home">Cancel</Link>
+      </div>
+      </div>
       </div>
     </>
   )

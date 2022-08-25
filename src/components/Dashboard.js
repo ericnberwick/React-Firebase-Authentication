@@ -4,6 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { useAuth } from "../contexts/AuthContext"
 import { Link, useNavigate } from "react-router-dom"
 import Navbar from "./Navbar.js"
+import FbNavbar from "../FbNavbar"
+import "../css/UpdateProfile.css"
 export default function Dashboard() {
   const [error, setError] = useState("")
   const { currentUser, logout } = useAuth()
@@ -22,8 +24,11 @@ export default function Dashboard() {
  
   return (
     <>
-    <Navbar />
+    <div className="everything">
+    <FbNavbar />
+    <div className="thing1">
       <Card>
+        
         <Card.Body>
           <h2 className="text-center mb-4">Profile</h2>
           {error && <Alert variant="danger">{error}</Alert>}
@@ -37,6 +42,8 @@ export default function Dashboard() {
         <Button variant="link" onClick={handleLogout}>
           Log Out
         </Button>
+      </div>
+      </div>
       </div>
     </>
   )

@@ -27,7 +27,7 @@ function FbNavbar() {
       <NavItem icon={'Computing'} >
         <ComputingDropdownMenu></ComputingDropdownMenu>
       </NavItem>
-      <Link className="mlink"  to="/books"><NavItem icon={'Cooking'} /></Link>
+      <Link className="mlink"  to="/cooking"><NavItem icon={'Cooking'} /></Link>
       <Link className="mlink"  to="/photography"><NavItem icon={'Photography'} /></Link>
       <Link className="mlink"  to="/trading"><NavItem icon={'Trading'} /></Link>
       <Link className="mlink"  to="/university"><NavItem icon={'University'} /></Link>
@@ -41,7 +41,7 @@ function FbNavbar() {
 function Navbar(props) {
   return (
     <nav className="fnavbar">
-      <img class="flogo" src={notedLogo3} />
+      <Link  to="/"><img class="flogo" src={notedLogo3} /></Link>
       <ul className="fnavbar-nav ful">{props.children}</ul>
     </nav>
   );
