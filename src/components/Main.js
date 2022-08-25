@@ -6,8 +6,8 @@ export default function Main() {
 
   return (
     <>
-      <FbNavbar />
-      <Cards />
+      <FbNavbar/>
+      <Cards section={'notEd'}/>
     </>
   )
 }
