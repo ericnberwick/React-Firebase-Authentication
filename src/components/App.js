@@ -21,7 +21,7 @@ import Cooking from "../pages/Cooking";
 import Photography from "../pages/Photography";
 import Trading from "../pages/Trading";
 import University from "../pages/University";
-
+import Landing from "./Landing";
 
 function App() {
   
@@ -33,7 +33,7 @@ function App() {
         <Router>
           <AuthProvider>
             <Switch>
-              <Route path="/" element={<Main/>} />
+              <Route path="/" element={<Landing/>} />
               <Route exact path="/home" element={<PrivateRoute><Dashboard/></PrivateRoute>} />
               <Route exact path="/update-profile" element={<PrivateRoute><UpdateProfile/></PrivateRoute>} />
               <Route path="/signup" element={<Signup/>} />
