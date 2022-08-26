@@ -12,7 +12,7 @@ body{
 }
 .flogo {
   position: absolute;
-  height: 7.5vh;
+  height: 7.3vh;
   transition: transform .2s; /* Animation */
   margin-top: 0.15%;
   left: 0.5%;
