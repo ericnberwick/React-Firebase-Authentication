@@ -1,12 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import PApp from "../pdf/src/PApp"
-import CompApp from "../pIcon/computing/CompApp"
+import BApp from "../../../../pIcon/books/BApp"
 function CardItem(props) {
   return (
     <>
     <li className="cards__item">
-    <CompApp file={props.file}/>
+    <BApp file={props.file}/>
     <Link className="cards__item__link" to={props.path}>
       <div className="cards__item__info">
         <h5 className="cards__item__text">{props.text}</h5>

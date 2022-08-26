@@ -23,12 +23,11 @@ export default function Computing() {
     <>
     <FbNavbar />
     <div className="cardContainer">
-  <motion.div className="baseContainer"
-      variants={containerVariants}
-      initial="hidden"
-      animate="visible"
-      exit="exit"
-    >
+    <motion.div className="home container"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.1, duration: 1.2 }}
+          >
     <Cards section={"Computing"}/>
     </motion.div>
     </div>
