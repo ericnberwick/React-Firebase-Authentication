@@ -7,7 +7,7 @@ import "./index.css"
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faCoffee} from '@fortawesome/free-solid-svg-icons';
 import {faFile} from '@fortawesome/free-regular-svg-icons'
-function BookApp ({file}) {
+function BookApp ({file, bcover}) {
   const [modal, setModal]=useState(false);
   const [resume, setResume]=useState(null);
 
@@ -22,7 +22,7 @@ function BookApp ({file}) {
     <div className="container">
       
 
-      <Button class="pdfButton" setModal={setModal}/>
+      <Button class="pdfButton" setModal={setModal} cover={bcover}/>
       {modal===true&&(
         <Modal setModal={setModal} resume={resume}/>
       )}

@@ -3,11 +3,11 @@ import './Button.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faFileLines} from '@fortawesome/free-solid-svg-icons';
 import {faFile} from '@fortawesome/free-regular-svg-icons'
-export const Button = ({setModal}) => {
+export const Button = ({setModal, cover}) => {
   return (
     <>
     <button className='pdfButton'
-    onClick={()=>setModal(true)}><FontAwesomeIcon className="pdfIcon" icon={faFileLines } style={{color: "blue"}}/></button>
+    onClick={()=>setModal(true)}><img src={cover} alt="Logo"  width="100" height="100"/></button>
 
   
 
