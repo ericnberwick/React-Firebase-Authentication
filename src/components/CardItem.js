@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import PApp from "../pdf/src/PApp"
 import CompApp from "../pIcon/computing/CompApp"
 function CardItem(props) {
   return (

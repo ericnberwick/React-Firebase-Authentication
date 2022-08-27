@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import BApp from "../../../../pIcon/books/BApp"
 function UniversityCardItem(props) {
   return (
     <>

@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import BApp from "../../../../pIcon/books/BApp"
 import Limitless from "../../../../pics/limitless.jpg"
 function CardItem(props) {
   let book = "https://images-na.ssl-images-amazon.com/images/I/71ne0w3xcwL.jpg";

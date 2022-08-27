@@ -25,10 +25,10 @@
   }
   
   .delete-icon{
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
-    background-color: rgb(0, 30, 255);
+    background-color: rgb(255, 17, 17);
     color: #fff;
     display: flex;
     justify-content: center;
