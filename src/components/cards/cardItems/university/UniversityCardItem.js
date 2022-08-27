@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import BApp from "../../../../pIcon/books/BApp"
-function CardItem(props) {
+function UniversityCardItem(props) {
   return (
     <>
     <li className="cards__item">
-    <BApp file={props.file}/>
+    <img src= {props.university} alt="Logo"  width="300" height="330"/>
     <Link className="cards__item__link" to={props.path}>
       <div className="cards__item__info">
         <h5 className="cards__item__text">{props.text}</h5>
@@ -16,4 +16,4 @@ function CardItem(props) {
   );
 }
 
-export default CardItem;
+export default UniversityCardItem;
