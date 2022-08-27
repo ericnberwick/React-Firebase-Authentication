@@ -7,7 +7,7 @@ export const Button = ({setModal}) => {
   return (
     <>
     <button className='pdfButton'
-    onClick={()=>setModal(true)}><FontAwesomeIcon className="pdfIcon" icon={faFileLines } style={{color: "orange"}} /></button>
+    onClick={()=>setModal(true)}><FontAwesomeIcon className="pdfIcon" icon={faFileLines } style={{color: "blue"}}/></button>
 
   
 

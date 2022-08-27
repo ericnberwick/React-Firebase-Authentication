@@ -45,6 +45,7 @@ import Cook9 from "../pages/cooking/cook9"
 import Cook10 from "../pages/cooking/cook10"
 import Cook11 from "../pages/cooking/cook11"
 import Cook12 from "../pages/cooking/cook12"
+import Book1 from "../pages/books/book1"
 function App() {
   
   return (
@@ -58,6 +59,7 @@ function App() {
               <Route path="/" element={<Landing/>} />
               <Route exact path="/home" element={<PrivateRoute><Dashboard/></PrivateRoute>} />
               <Route exact path="/update-profile" element={<PrivateRoute><UpdateProfile/></PrivateRoute>} />
+              <Route path="/book1" element={<Book1/>} />
               <Route path="/cook1" element={<Cook1/>} />
               <Route path="/cook2" element={<Cook2/>} />
               <Route path="/cook3" element={<Cook3/>} />

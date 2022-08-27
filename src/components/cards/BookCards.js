@@ -19,7 +19,7 @@ function Cards({section}) {
             <BookCardItem
               src={Carrots}
               text="Limitless"
-              path="/html1"
+              path="/book1"
               book= "https://images-na.ssl-images-amazon.com/images/I/71ne0w3xcwL.jpg"
             />
           
