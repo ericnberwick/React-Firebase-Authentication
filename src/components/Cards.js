@@ -6,7 +6,7 @@ import Plants from "../pics/notEdV3.jpg"
 import Carrots from "../pics/notEdV3.jpg"
 import Cress from "../pics/notEdV3.jpg"
 import Pots from "../pics/notEdV3.jpg"
-
+import CompCardItem from "./cards/cardItems/computing/CompCardItem"
 /**
  * Function to return the cards section under the headers of the home page, Uses a react library called cards, pretty simple
  * Not implemented yet just renders the items
@@ -18,89 +18,98 @@ function Cards({section}) {
       <h1>{section}</h1>
       <div className="cards__container">
         <div className="cards__wraper">
-          <ul className="cards__items">
-            <CardItem
+        <ul className="cards__items">
+            <CompCardItem
               src={Carrots}
-              text="HTML for Beginners"
+              text="HTML For Beginners"
               path="/html1"
-              file="1___HTML_Fundamentals.pdf"
+              book= "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"
             />
           
-            <CardItem
+            <CompCardItem
               src={Tomato}
-              text="CSS for Beginners"
-              path="/comp2"
-              file="2___CSS_Fundamentals.pdf"
+              text="CSS For Beginners"
+              path="/art3"
+              file="Limitless___Jim_Kwik.pdf"
+              book ="https://cdn-icons-png.flaticon.com/512/888/888847.png"
             />
-            <CardItem
+            <CompCardItem
               src={Tomato}
               text="Developing Websites Locally"
-              path="/comp3"
-              file="3___Developing_Website_Locally.pdf"
+              path="/art3"
+              file="Limitless___Jim_Kwik.pdf"
+              book ="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png"
             />
+            <CompCardItem
+              src={Tomato}
+              text="Improved Styling CSS"
+              path="/art3"
+              file="Limitless___Jim_Kwik.pdf"
+              book ="https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png"
+            />
+            
           </ul>
           <ul className="cards__items">
-            <CardItem
+            <CompCardItem
               src={Carrots}
-              text="Improved Styling CSS"
-              path="/comp4"
-              file="4___Improved_Styling_CSS.pdf"
+              text="Fundamentals of Web Design"
+              path="/html1"
+              book= "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/09/WHAT-IS-WEB-DESIGN.jpg?auto=format&q=60&w=1860&h=1395&fit=crop&crop=faces"
             />
           
-            <CardItem
-              src={Tomato}
-              text="Fundamentals of Web Design"
-              path="/comp5"
-              file="5___Fundamentals_of_Web_Design.pdf"
-            />
-            <CardItem
+            <CompCardItem
               src={Tomato}
               text="Making a Website Responsive"
-              path="/comp6"
-              file="6___Making_a_Website_Responsive.pdf"
+              path="/art3"
+              file="Limitless___Jim_Kwik.pdf"
+              book ="https://www.tutorialspoint.com/css/images/responsive.jpg"
             />
+            <CompCardItem
+              src={Tomato}
+              text="JavaScript For Beginners"
+              path="/art3"
+              file="Limitless___Jim_Kwik.pdf"
+              book ="https://www.computerhope.com/jargon/j/javascript.png"
+            />
+            <CompCardItem
+              src={Tomato}
+              text="JavaScript For Intermediate"
+              path="/art3"
+              file="Limitless___Jim_Kwik.pdf"
+              book ="http://wfhutch.github.io/images/download.png"
+            />
+            
           </ul>
           <ul className="cards__items">
-            <CardItem
+            <CompCardItem
               src={Carrots}
-              text="JavaScipt for Beginners"
-              path="/comp7"
-              file="7___JavaScript.pdf"
-            />
-          
-            <CardItem
-              src={Tomato}
-              text="JavaScript for Intermediate"
-              path="/comp8"
-              file="10___More_JavaScipt.pdf"
-            />
-            <CardItem
-              src={Tomato}
               text="JavaScript Testing"
-              path="/comp9"
-              file="11___JavaScript_Testing.pdf"
-            />
-          </ul>
-          <ul className="cards__items">
-            <CardItem
-              src={Carrots}
-              text="Asyn JavaScript and HTTP Requests"
-              path="/comp10"
-              file="12___Async_JavaScript_and_HTTP_Requests.pdf"
+              path="/html1"
+              book= "https://camo.githubusercontent.com/58045a79a69afea4cab1cea6def6d911fba3956cf5fd683addf41c032aa64088/68747470733a2f2f636c6475702e636f6d2f78465646784f696f41552e737667"
             />
           
-            <CardItem
+            <CompCardItem
+              src={Tomato}
+              text="Async JavaScript and HTTP Requests"
+              path="/art3"
+              file="Limitless___Jim_Kwik.pdf"
+              book ="https://yashints.dev/static/fb3883e15852de11a094b8a6a3d8aee8/47498/asyncawaitjs.jpg"
+            />
+            <CompCardItem
               src={Tomato}
               text="React"
-              path="/comp11"
-              file="13___React.pdf"
+              path="/art3"
+              file="Limitless___Jim_Kwik.pdf"
+              book ="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
             />
-            <CardItem
+            <CompCardItem
               src={Tomato}
               text="Git"
-              path="/comp12"
-              file="Git_Notes.pdf"
+              path="/art3"
+              file="Limitless___Jim_Kwik.pdf"
+              book ="https://avatars.githubusercontent.com/u/18133?s=200&v=4"
             />
+            
           </ul>
         </div>
       </div>
