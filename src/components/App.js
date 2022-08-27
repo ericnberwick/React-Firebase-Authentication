@@ -34,6 +34,17 @@ import Response from "../pages/computing/Response"
 import WebDes from "../pages/computing/WebDes"
 import Async from "../pages/computing/Async"
 import Cook1 from "../pages/cooking/cook1"
+import Cook2 from "../pages/cooking/cook2"
+import Cook3 from "../pages/cooking/cook3"
+import Cook4 from "../pages/cooking/cook4"
+import Cook5 from "../pages/cooking/cook5"
+import Cook6 from "../pages/cooking/cook6"
+import Cook7 from "../pages/cooking/cook7"
+import Cook8 from "../pages/cooking/cook8"
+import Cook9 from "../pages/cooking/cook9"
+import Cook10 from "../pages/cooking/cook10"
+import Cook11 from "../pages/cooking/cook11"
+import Cook12 from "../pages/cooking/cook12"
 function App() {
   
   return (
@@ -48,6 +59,17 @@ function App() {
               <Route exact path="/home" element={<PrivateRoute><Dashboard/></PrivateRoute>} />
               <Route exact path="/update-profile" element={<PrivateRoute><UpdateProfile/></PrivateRoute>} />
               <Route path="/cook1" element={<Cook1/>} />
+              <Route path="/cook2" element={<Cook2/>} />
+              <Route path="/cook3" element={<Cook3/>} />
+              <Route path="/cook4" element={<Cook4/>} />
+              <Route path="/cook5" element={<Cook5/>} />
+              <Route path="/cook6" element={<Cook6/>} />
+              <Route path="/cook7" element={<Cook7/>} />
+              <Route path="/cook8" element={<Cook8/>} />
+              <Route path="/cook9" element={<Cook9/>} />
+              <Route path="/cook10" element={<Cook10/>} />
+              <Route path="/cook11" element={<Cook11/>} />
+              <Route path="/cook12" element={<Cook12/>} />
               <Route path="/html1" element={<HTML1/>} />
               <Route path="/css1" element={<CSS1/>} />
               <Route path="/css2" element={<CSS2/>} />
