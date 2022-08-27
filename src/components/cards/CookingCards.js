@@ -19,7 +19,7 @@ function Cards({section}) {
             <CookCardItem
               src={Carrots}
               text="Jamie Oliver's Authentic Italian Carbonara"
-              path="/html1"
+              path="/cook1"
               cook="https://www.thespruceeats.com/thmb/SX7AEAMQwKV676yMFKWoVSE95Go=/1000x1000/smart/filters:no_upscale()/pasta-carbonara-recipe-5210168-hero-01-80090e56abc04ca19d88ebf7fad1d157.jpg"
             />
           

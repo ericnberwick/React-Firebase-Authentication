@@ -33,6 +33,7 @@ import ReactPage from "../pages/computing/ReactPage"
 import Response from "../pages/computing/Response"
 import WebDes from "../pages/computing/WebDes"
 import Async from "../pages/computing/Async"
+import Cook1 from "../pages/cooking/cook1"
 function App() {
   
   return (
@@ -46,6 +47,7 @@ function App() {
               <Route path="/" element={<Landing/>} />
               <Route exact path="/home" element={<PrivateRoute><Dashboard/></PrivateRoute>} />
               <Route exact path="/update-profile" element={<PrivateRoute><UpdateProfile/></PrivateRoute>} />
+              <Route path="/cook1" element={<Cook1/>} />
               <Route path="/html1" element={<HTML1/>} />
               <Route path="/css1" element={<CSS1/>} />
               <Route path="/css2" element={<CSS2/>} />
