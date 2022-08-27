@@ -3,6 +3,7 @@ import { Button } from "./components/Button";
 import { Modal } from "./components/Modal";
 import {getDownloadURL, ref} from 'firebase/storage'
 import storage from './config/firebase'
+import "./index.css"
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faCoffee} from '@fortawesome/free-solid-svg-icons';
 import {faFile} from '@fortawesome/free-regular-svg-icons'
