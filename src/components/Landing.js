@@ -6,7 +6,6 @@ import {faPencil} from '@fortawesome/free-solid-svg-icons';
 import PlantBackground from "../pics/back1.png";
 import { useContext } from "react";
 import FbNavbar from "../FbNavbar";
-import Typical from 'react-typical';
 import Float from "./Float";
 
 import { motion } from 'framer-motion';
