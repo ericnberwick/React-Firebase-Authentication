@@ -68,6 +68,16 @@ import Uni8 from "../pages/university/uni8"
 import Uni9 from "../pages/university/uni9"
 import Uni10 from "../pages/university/uni10"
 import Uni11 from "../pages/university/uni11"
+import Photo1 from "../pages/photo/photo1"
+import Photo2 from "../pages/photo/photo2"
+import Photo3 from "../pages/photo/photo3"
+import Photo4 from "../pages/photo/photo4"
+import Photo5 from "../pages/photo/photo5"
+import Photo6 from "../pages/photo/photo6"
+import Trade1 from "../pages/trading/trade1"
+import Trade2 from "../pages/trading/trade2"
+import Trade3 from "../pages/trading/trade3"
+
 function App() {
   
   return (
@@ -81,6 +91,15 @@ function App() {
               <Route path="/" element={<Landing/>} />
               <Route exact path="/home" element={<PrivateRoute><Dashboard/></PrivateRoute>} />
               <Route exact path="/update-profile" element={<PrivateRoute><UpdateProfile/></PrivateRoute>} />
+              <Route path="/trade1" element={<Trade1/>} />
+              <Route path="/trade2" element={<Trade2/>} />
+              <Route path="/trade3" element={<Trade3/>} />
+              <Route path="/photo1" element={<Photo1/>} />
+              <Route path="/photo2" element={<Photo2/>} />
+              <Route path="/photo3" element={<Photo3/>} />
+              <Route path="/photo4" element={<Photo4/>} />
+              <Route path="/photo5" element={<Photo5/>} />
+              <Route path="/photo6" element={<Photo6/>} />
               <Route path="/uni1" element={<Uni1/>} />
               <Route path="/uni2" element={<Uni2/>} />
               <Route path="/uni3" element={<Uni3/>} />
