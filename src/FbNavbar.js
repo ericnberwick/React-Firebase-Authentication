@@ -43,7 +43,7 @@ function FbNavbar() {
       <Link className="mlink"  to="/photography"><NavItem icon={'Photography'} /></Link>
       <Link className="mlink"  to="/trading"><NavItem icon={'Trading'} /></Link>
       <Link className="mlink"  to="/university"><NavItem icon={'University'} /></Link>
-      {!loggedIn && <Link className="userIcon" to="/signup"><NavItem className= "userNav" icon={<UserIcon />}/></Link>}
+      {!loggedIn && <Link className="userIcon" to="/login"><NavItem className= "userNav" icon={<UserIcon />}/></Link>}
       {loggedIn && <NavItem className= "userNav" icon={<UserIcon />}>
         <AccountDropdownMenu></AccountDropdownMenu>
       </NavItem>}
@@ -190,7 +190,7 @@ function AccountDropdownMenu() {
         <div className="fmenu">
           <DropdownItem leftIcon={<UserIcon />}><Link className="alink"  to="/home">Account</Link></DropdownItem>
           <DropdownItem leftIcon={<CogIcon />} ><Link className="alink"  to="/update-profile">Update Account</Link></DropdownItem>
-          <DropdownItem leftIcon={<LogoutIcon />} ><Link className="alink"  to="/update-profile">Logout</Link></DropdownItem> 
+          <DropdownItem leftIcon={<LogoutIcon />} ><Link className="alink"  to="/home">Logout</Link></DropdownItem> 
           {/* ^^make redirect to home and logout ^^*/}
         </div>
       </CSSTransition>

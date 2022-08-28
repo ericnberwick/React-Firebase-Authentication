@@ -13,7 +13,8 @@ import Main from "./Main";
 import Navbar from "./Navbar"
 import Pricing from "../pages/Pricing"
 import Home from "../pages/Home"
-
+import "@stripe/stripe-js" //include this in your root (App.js)
+import Checkout from "../components/Checkout";
 import "@fontsource/league-spartan"; //npm install @fontsource/league-spartan
 import Books from "../pages/Books";
 import Computing from "../pages/Computing";
@@ -91,6 +92,7 @@ function App() {
               <Route path="/" element={<Landing/>} />
               <Route exact path="/home" element={<PrivateRoute><Dashboard/></PrivateRoute>} />
               <Route exact path="/update-profile" element={<PrivateRoute><UpdateProfile/></PrivateRoute>} />
+              <Route path="/checkout" element={<Checkout />} />
               <Route path="/trade1" element={<Trade1/>} />
               <Route path="/trade2" element={<Trade2/>} />
               <Route path="/trade3" element={<Trade3/>} />
