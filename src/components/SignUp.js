@@ -46,7 +46,7 @@ export default function Signup() {
                 <h2 className='text-center mb-4'>Sign Up</h2>
                 {error && <Alert variant="danger">{error}</Alert>}
                 {useAuth.currentUser && <h1>You are signed in: {useAuth.currentUser.emailRef}</h1>}
-          {!useAuth.currentUser && <h1>You are not signed in</h1>}
+                {!useAuth.currentUser && <h1>You are not signed in</h1>}
                 <Form onSubmit={handleSubmit}>
                     <Form.Group id="email">
                         <Form.Label>Email</Form.Label>
