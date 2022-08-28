@@ -29,7 +29,7 @@ const Checkout = () => {
   const checkoutOptions  = {
     lineItems: [item],
     mode: "payment",
-    successUrl: `${window.location.origin}/signup`,
+    successUrl: `https://www.google.co.uk/`,
     cancelUrl: `${window.location.origin}`
   }
 
