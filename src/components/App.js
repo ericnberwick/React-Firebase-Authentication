@@ -57,6 +57,17 @@ import Book9 from "../pages/books/book9"
 import Book10 from "../pages/books/book10"
 import Book11 from "../pages/books/book11"
 import Book12 from "../pages/books/book12"
+import Uni1 from "../pages/university/uni1"
+import Uni2 from "../pages/university/uni2"
+import Uni3 from "../pages/university/uni3"
+import Uni4 from "../pages/university/uni4"
+import Uni5 from "../pages/university/uni5"
+import Uni6 from "../pages/university/uni6"
+import Uni7 from "../pages/university/uni7"
+import Uni8 from "../pages/university/uni8"
+import Uni9 from "../pages/university/uni9"
+import Uni10 from "../pages/university/uni10"
+import Uni11 from "../pages/university/uni11"
 function App() {
   
   return (
@@ -70,6 +81,17 @@ function App() {
               <Route path="/" element={<Landing/>} />
               <Route exact path="/home" element={<PrivateRoute><Dashboard/></PrivateRoute>} />
               <Route exact path="/update-profile" element={<PrivateRoute><UpdateProfile/></PrivateRoute>} />
+              <Route path="/uni1" element={<Uni1/>} />
+              <Route path="/uni2" element={<Uni2/>} />
+              <Route path="/uni3" element={<Uni3/>} />
+              <Route path="/uni4" element={<Uni4/>} />
+              <Route path="/uni5" element={<Uni5/>} />
+              <Route path="/uni6" element={<Uni6/>} />
+              <Route path="/uni7" element={<Uni7/>} />
+              <Route path="/uni8" element={<Uni8/>} />
+              <Route path="/uni9" element={<Uni9/>} />
+              <Route path="/uni10" element={<Uni10/>} />
+              <Route path="/uni11" element={<Uni11/>} />
               <Route path="/book1" element={<Book1/>} />
               <Route path="/book2" element={<Book2/>} />
               <Route path="/book3" element={<Book3/>} />
