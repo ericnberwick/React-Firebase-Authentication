@@ -26,14 +26,14 @@ function Cards({section}) {
             <BookCardItem
               src={Tomato}
               text="7 Habits of Highly Effective People"
-              path="/art3"
+              path="/book2"
               file="Limitless___Jim_Kwik.pdf"
               book ="https://images-na.ssl-images-amazon.com/images/I/51hV5vGr4AL.jpg"
             />
             <BookCardItem
               src={Tomato}
               text="Think and Grow Rich"
-              path="/art3"
+              path="/book3"
               file="Limitless___Jim_Kwik.pdf"
               book ="https://images-na.ssl-images-amazon.com/images/I/71ZA+vKnFRL.jpg"
             />
@@ -42,7 +42,7 @@ function Cards({section}) {
             <BookCardItem
               src={Carrots}
               text="The Subtle Art of Not Giving a F***"
-              path="/html1"
+              path="/book4"
               file="Limitless___Jim_Kwik.pdf"
               book="https://images-na.ssl-images-amazon.com/images/I/71QKQ9mwV7L.jpg"
             />
@@ -50,14 +50,14 @@ function Cards({section}) {
             <BookCardItem
               src={Tomato}
               text="Atomic Habits"
-              path="/art3"
+              path="/book5"
               file="Limitless___Jim_Kwik.pdf"
               book="https://images-na.ssl-images-amazon.com/images/I/91bYsX41DVL.jpg"
             />
             <BookCardItem
               src={Tomato}
               text="The Infinite Game"
-              path="/art3"
+              path="/book6"
               file="Limitless___Jim_Kwik.pdf"
               book = "https://images-na.ssl-images-amazon.com/images/I/51YNDYmRqBL.jpg"
             />
@@ -66,7 +66,7 @@ function Cards({section}) {
             <BookCardItem
               src={Carrots}
               text="How To Win Friends & Influence People"
-              path="/html1"
+              path="/book7"
               file="Limitless___Jim_Kwik.pdf"
               book="https://m.media-amazon.com/images/I/41FYFMn7lZL._AC_SY780_.jpg"
             />
@@ -74,14 +74,14 @@ function Cards({section}) {
             <BookCardItem
               src={Tomato}
               text="Deep Work"
-              path="/art3"
+              path="/book8"
               file="Limitless___Jim_Kwik.pdf"
               book="https://images-na.ssl-images-amazon.com/images/I/71g8BUSqbpL.jpg"
             />
             <BookCardItem
               src={Tomato}
               text="The Worlds Fittest Book"
-              path="/art3"
+              path="/book9"
               file="Limitless___Jim_Kwik.pdf"
               book = "https://images-na.ssl-images-amazon.com/images/I/71JtF90V+DL.jpg"
             />
@@ -90,7 +90,7 @@ function Cards({section}) {
             <BookCardItem
               src={Carrots}
               text="Build a Bulletproof Body For Extreme Adventure In 365 Days"
-              path="/html1"
+              path="/book10"
               file="Limitless___Jim_Kwik.pdf"
               book="https://cdn.waterstones.com/bookjackets/large/9780/0084/9780008487034.jpg"
             />
@@ -98,14 +98,14 @@ function Cards({section}) {
             <BookCardItem
               src={Tomato}
               text="Thinking Fast and Slow"
-              path="/art3"
+              path="/book11"
               file="Limitless___Jim_Kwik.pdf"
               book="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1317793965l/11468377.jpg"
             />
             <BookCardItem
               src={Tomato}
               text="Rich Dad Poor Dad"
-              path="/art3"
+              path="/book12"
               file="Limitless___Jim_Kwik.pdf"
               book = "https://images-na.ssl-images-amazon.com/images/I/81bsw6fnUiL.jpg"
             />

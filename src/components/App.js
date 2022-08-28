@@ -46,6 +46,17 @@ import Cook10 from "../pages/cooking/cook10"
 import Cook11 from "../pages/cooking/cook11"
 import Cook12 from "../pages/cooking/cook12"
 import Book1 from "../pages/books/book1"
+import Book2 from "../pages/books/book2"
+import Book3 from "../pages/books/book3"
+import Book4 from "../pages/books/book4"
+import Book5 from "../pages/books/book5"
+import Book6 from "../pages/books/book6"
+import Book7 from "../pages/books/book7"
+import Book8 from "../pages/books/book8"
+import Book9 from "../pages/books/book9"
+import Book10 from "../pages/books/book10"
+import Book11 from "../pages/books/book11"
+import Book12 from "../pages/books/book12"
 function App() {
   
   return (
@@ -60,6 +71,17 @@ function App() {
               <Route exact path="/home" element={<PrivateRoute><Dashboard/></PrivateRoute>} />
               <Route exact path="/update-profile" element={<PrivateRoute><UpdateProfile/></PrivateRoute>} />
               <Route path="/book1" element={<Book1/>} />
+              <Route path="/book2" element={<Book2/>} />
+              <Route path="/book3" element={<Book3/>} />
+              <Route path="/book4" element={<Book4/>} />
+              <Route path="/book5" element={<Book5/>} />
+              <Route path="/book6" element={<Book6/>} />
+              <Route path="/book7" element={<Book7/>} />
+              <Route path="/book8" element={<Book8/>} />
+              <Route path="/book9" element={<Book9/>} />
+              <Route path="/book10" element={<Book10/>} />
+              <Route path="/book11" element={<Book11/>} />
+              <Route path="/book12" element={<Book12/>} />
               <Route path="/cook1" element={<Cook1/>} />
               <Route path="/cook2" element={<Cook2/>} />
               <Route path="/cook3" element={<Cook3/>} />
