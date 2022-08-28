@@ -30,7 +30,7 @@ const Checkout = () => {
     lineItems: [item],
     mode: "payment",
     successUrl: `${window.location.origin}/signup`,
-    cancelUrl: `${window.location.origin}/login`
+    cancelUrl: `${window.location.origin}`
   }
 
   const redirectToCheckout = async () => {
