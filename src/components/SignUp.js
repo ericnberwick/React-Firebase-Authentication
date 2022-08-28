@@ -69,6 +69,11 @@ export default function Signup() {
         <div className='w-100 text-center mt-2' >
             Already have an account? <Link to="/login">Log In</Link>
         </div>
+        <br></br>
+        <p className="disclaim">Create an account to gain full acess and do not exit this page.<br></br>
+        Doing so will leave you without a full access account and you may<br></br>
+        still have been charged but will not have access. If this does happen<br></br>
+        contact nb15galle@gmail.com</p>
         </div>
     </>
   )

@@ -2,6 +2,9 @@
   text-align: center;
 }
 
+.ed{
+  color: #4316db;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -17,6 +20,10 @@ code {
 }
 
 .checkout {
+  position: absolute;
+  top: 8%;
+  left: 30%;
+
   padding-top: 10px;
 }
 

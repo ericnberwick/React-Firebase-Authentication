@@ -2,8 +2,8 @@
 import { useState } from "react";
 import { loadStripe } from "@stripe/stripe-js";
 import CardIcon from "../images/credit-card.svg";
-import ProductImage from "../images/product-image.jpg";
-
+import ProductImage from "../images/checkout.jpg";
+import FbNavbar from "../FbNavbar";
 import "./styles.css";
 
 
@@ -29,7 +29,7 @@ const Checkout = () => {
   const checkoutOptions  = {
     lineItems: [item],
     mode: "payment",
-    successUrl: `${window.location.origin}/home`,
+    successUrl: `${window.location.origin}/signup`,
     cancelUrl: `${window.location.origin}/login`
   }
 
@@ -47,13 +47,15 @@ const Checkout = () => {
   if(stripeError) alert(stripeError);
   //the cancel and successUrl are to redirect user after checkout successfully and if they cancel
   return (
+    <>
+    <FbNavbar />
     <div className="checkout">
-      <h1>Stripe Checkout</h1>
-      <p className="checkout-title">Design+Code React Hooks Course</p>
+      <h1>not<span className="ed">Ed</span> Checkout</h1>
+      <p className="checkout-title">notEd Full Access One Time Account Subscription</p>
       <p className="checkout-description">
-        Learn how to build a website with React Hooks
+        Gain Full Access to notEds huge library of notes for only £3.00!
       </p>
-      <h1 className="checkout-price">$19</h1>
+      <h1 className="checkout-price">£3</h1>
       <img
         className="checkout-product-image"
         src={ProductImage}
@@ -70,6 +72,7 @@ const Checkout = () => {
         </div>
       </button>
     </div>
+    </>
   );
 };
 
