@@ -18,8 +18,20 @@ import { Link, useMatch, useResolvedPath } from "react-router-dom"
 import React, { useState, useEffect, useRef } from 'react';
 import { CSSTransition } from 'react-transition-group';
 import notedLogo3 from './icons/note.jpg'
+import {useAuth} from "./contexts/AuthContext.js"
+import { useContext } from "react";
+
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faUserLargeSlash} from '@fortawesome/free-solid-svg-icons';
 import "@fontsource/league-spartan";
 function FbNavbar() {
+  var loggedIn;
+  const { currentUser, logout } = useAuth()
+  if (currentUser != null){
+    loggedIn = true;
+  } else {
+    loggedIn = false;
+  }
   return (
     <Navbar>
       <NavItem icon={''} />
@@ -31,9 +43,10 @@ function FbNavbar() {
       <Link className="mlink"  to="/photography"><NavItem icon={'Photography'} /></Link>
       <Link className="mlink"  to="/trading"><NavItem icon={'Trading'} /></Link>
       <Link className="mlink"  to="/university"><NavItem icon={'University'} /></Link>
-      <NavItem className= "userNav" icon={<UserIcon />}>
+      {!loggedIn && <Link className="userIcon" to="/signup"><NavItem className= "userNav" icon={<UserIcon />}/></Link>}
+      {loggedIn && <NavItem className= "userNav" icon={<UserIcon />}>
         <AccountDropdownMenu></AccountDropdownMenu>
-      </NavItem>
+      </NavItem>}
     </Navbar>
   );
 }

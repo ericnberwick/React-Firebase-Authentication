@@ -6,6 +6,9 @@ import { useAuth } from "../contexts/AuthContext"
 import { useNavigate } from 'react-router-dom';
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar.js"
+import "./logsign.css"
+import FbNavbar from "../FbNavbar";
+
 
 export default function Login() {
     const emailRef = useRef()
@@ -35,8 +38,8 @@ export default function Login() {
   return (
     <>
     
-    <Navbar />
-      <h1>hello</h1>
+    <FbNavbar />
+    <div className="logcard">
       <Card>
         <Card.Body>
           <h2 className="text-center mb-4">Log In</h2>
@@ -63,6 +66,7 @@ export default function Login() {
       </Card>
       <div className="w-100 text-center mt-2">
         Need an account? <Link to="/signup">Sign Up</Link>
+      </div>
       </div>
     </>
   )
