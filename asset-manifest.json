@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Firebase-Authentication/static/css/main.a1455811.css",
-    "main.js": "/React-Firebase-Authentication/static/js/main.83f5a506.js",
+    "main.js": "/React-Firebase-Authentication/static/js/main.6782953f.js",
     "static/media/computer.svg": "/React-Firebase-Authentication/static/media/computer.331b4d8c7648ff40c57271bb6b0d7abe.svg",
     "static/media/back1.png": "/React-Firebase-Authentication/static/media/back1.45ec9a3385f231a6e2cf.png",
     "static/media/security.svg": "/React-Firebase-Authentication/static/media/security.22367233666114c10c1fc053107f3cbe.svg",
@@ -31,10 +31,10 @@
     "static/media/credit-card.svg": "/React-Firebase-Authentication/static/media/credit-card.85d5c2dbd95d54c99bb153cb15aabe21.svg",
     "static/media/arrow.svg": "/React-Firebase-Authentication/static/media/arrow.2e552680862d14cd24637c6387dfb5b7.svg",
     "main.a1455811.css.map": "/React-Firebase-Authentication/static/css/main.a1455811.css.map",
-    "main.83f5a506.js.map": "/React-Firebase-Authentication/static/js/main.83f5a506.js.map"
+    "main.6782953f.js.map": "/React-Firebase-Authentication/static/js/main.6782953f.js.map"
   },
   "entrypoints": [
     "static/css/main.a1455811.css",
-    "static/js/main.83f5a506.js"
+    "static/js/main.6782953f.js"
   ]
 }
