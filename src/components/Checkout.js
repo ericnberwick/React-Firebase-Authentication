@@ -29,7 +29,7 @@ const Checkout = () => {
   const checkoutOptions  = {
     lineItems: [item],
     mode: "payment",
-    successUrl: `${window.location.origin}/signup` ,
+    successUrl: "https://630cd441068f4d51fa8f26ec--dashing-maamoul-ba042f.netlify.app/cooking" ,
     cancelUrl: `${window.location.origin}`
   }
 
