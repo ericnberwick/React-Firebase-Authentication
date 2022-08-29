@@ -1,5 +1,4 @@
 {
-  "homepage": "https://s1937645.github.io/React-Firebase-Authentication/",
   "name": "authentication",
   "version": "0.1.0",
   "private": false,
@@ -53,8 +52,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
   }
 }
