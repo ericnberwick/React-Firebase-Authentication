@@ -29,7 +29,7 @@ const Checkout = () => {
   const checkoutOptions  = {
     lineItems: [item],
     mode: "payment",
-    successUrl: `https://www.google.co.uk/`,
+    successUrl: "https://s1937645.github.io/React-Firebase-Authentication/signup",
     cancelUrl: `${window.location.origin}`
   }
 
