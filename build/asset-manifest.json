@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/React-Firebase-Authentication/static/css/main.a1455811.css",
+    "main.js": "/React-Firebase-Authentication/static/js/main.e934f680.js",
+    "static/media/computer.svg": "/React-Firebase-Authentication/static/media/computer.331b4d8c7648ff40c57271bb6b0d7abe.svg",
+    "static/media/back1.png": "/React-Firebase-Authentication/static/media/back1.45ec9a3385f231a6e2cf.png",
+    "static/media/security.svg": "/React-Firebase-Authentication/static/media/security.22367233666114c10c1fc053107f3cbe.svg",
+    "static/media/note.jpg": "/React-Firebase-Authentication/static/media/note.ed56503e5779f70c3752.jpg",
+    "static/media/checkout.jpg": "/React-Firebase-Authentication/static/media/checkout.21a397cddb80d5471476.jpg",
+    "static/media/notEdV3.jpg": "/React-Firebase-Authentication/static/media/notEdV3.80ad411c3e6da0ddc781.jpg",
+    "static/media/notEdV2.jpg": "/React-Firebase-Authentication/static/media/notEdV2.ffb046c56ee7b5c4d7ec.jpg",
+    "static/media/notEd.jpg": "/React-Firebase-Authentication/static/media/notEd.6c8bef7635d02c08bbc7.jpg",
+    "static/media/league-spartan-all-400-normal.woff": "/React-Firebase-Authentication/static/media/league-spartan-all-400-normal.63d127d27993ec6f782d.woff",
+    "static/media/limitless.jpg": "/React-Firebase-Authentication/static/media/limitless.c11218a4ba162912b097.jpg",
+    "static/media/league-spartan-latin-400-normal.woff2": "/React-Firebase-Authentication/static/media/league-spartan-latin-400-normal.ff90845b5ef1a629271a.woff2",
+    "static/media/league-spartan-latin-ext-400-normal.woff2": "/React-Firebase-Authentication/static/media/league-spartan-latin-ext-400-normal.8915f44a464c0038a068.woff2",
+    "static/media/java.svg": "/React-Firebase-Authentication/static/media/java.b4a0adbd9cd896d2c424c0d7b59f7962.svg",
+    "static/media/league-spartan-vietnamese-400-normal.woff2": "/React-Firebase-Authentication/static/media/league-spartan-vietnamese-400-normal.e8ad14433ca56ca2d3c0.woff2",
+    "static/media/sql.svg": "/React-Firebase-Authentication/static/media/sql.b73f27211be01d27a3312e226f1f5c1a.svg",
+    "static/media/css.svg": "/React-Firebase-Authentication/static/media/css.1f30572567ede459308647a363d3b036.svg",
+    "static/media/react.svg": "/React-Firebase-Authentication/static/media/react.e68b35f4774979ae220b1d5d7b345b00.svg",
+    "static/media/user.svg": "/React-Firebase-Authentication/static/media/user.da1f5222f3d4dec4dc498d69d84f4600.svg",
+    "static/media/csharp.svg": "/React-Firebase-Authentication/static/media/csharp.04d9d2bb18b9781567f7340691dcc686.svg",
+    "static/media/python.svg": "/React-Firebase-Authentication/static/media/python.e6d7dc739a91892bbf1f6262412046dd.svg",
+    "static/media/logout.svg": "/React-Firebase-Authentication/static/media/logout.f0f142803f279d92925bea1cb4438379.svg",
+    "static/media/html.svg": "/React-Firebase-Authentication/static/media/html.fe296947d8d83d0d645adbea3115b8a8.svg",
+    "static/media/git.svg": "/React-Firebase-Authentication/static/media/git.7bc790e0ea0e59c9d1271d011d119d0a.svg",
+    "static/media/cog.svg": "/React-Firebase-Authentication/static/media/cog.8c5b9138d8c4be979ec844f26605245f.svg",
+    "index.html": "/React-Firebase-Authentication/index.html",
+    "static/media/javascript (1).svg": "/React-Firebase-Authentication/static/media/javascript (1).218515feb76f692771fe00cfeadc46c8.svg",
+    "static/media/credit-card.svg": "/React-Firebase-Authentication/static/media/credit-card.85d5c2dbd95d54c99bb153cb15aabe21.svg",
+    "static/media/arrow.svg": "/React-Firebase-Authentication/static/media/arrow.2e552680862d14cd24637c6387dfb5b7.svg",
+    "main.a1455811.css.map": "/React-Firebase-Authentication/static/css/main.a1455811.css.map",
+    "main.e934f680.js.map": "/React-Firebase-Authentication/static/js/main.e934f680.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1455811.css",
+    "static/js/main.e934f680.js"
+  ]
+}
