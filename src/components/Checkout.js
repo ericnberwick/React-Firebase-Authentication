@@ -25,11 +25,11 @@ const Checkout = () => {
     price: "price_1Lbl9FK7gJkFbCuNN98eMYJU",
     quantity: 1
   };
-
+//dfsf
   const checkoutOptions  = {
     lineItems: [item],
     mode: "payment",
-    successUrl: "https://s1937645.github.io/React-Firebase-Authentication/signup",
+    successUrl: `${window.location.origin}/signup` ,
     cancelUrl: `${window.location.origin}`
   }
 
