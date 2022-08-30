@@ -7,7 +7,7 @@ import PlantBackground from "../pics/back1.png";
 import { useContext } from "react";
 import FbNavbar from "../FbNavbar";
 import Float from "./Float";
-
+import RNavbar from "./RNavbar/RNavbar"
 import { motion } from 'framer-motion';
 /**
  * Home section of our website
@@ -17,7 +17,7 @@ function Landing() {
 
   return (
     <>
-    <FbNavbar />
+    <RNavbar />
       <div className="hero-container">
         <img className="background-image" src={PlantBackground}></img>
         <motion.div className="home container"
