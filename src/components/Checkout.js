@@ -4,6 +4,7 @@ import { loadStripe } from "@stripe/stripe-js";
 import CardIcon from "../images/credit-card.svg";
 import ProductImage from "../images/checkout.jpg";
 import FbNavbar from "../FbNavbar";
+import RNavbar from "./RNavbar/RNavbar";
 import "./styles.css";
 
 
