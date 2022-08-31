@@ -9,7 +9,7 @@ import Navbar from "./Navbar.js"
 import "./logsign.css"
 import FbNavbar from "../FbNavbar";
 import RNavbar from "./RNavbar/RNavbar";
-
+import Footer from "./Footer"
 export default function Login() {
     const emailRef = useRef()
     const passwordRef = useRef()
@@ -68,6 +68,7 @@ export default function Login() {
         Don't have an account? <Link to="/checkout">Create Account Here</Link> {/* This is where we redirect to payment */}
       </div>
       </div>
+      <Footer />
     </>
   )
 }

@@ -9,6 +9,7 @@ import FbNavbar from "../FbNavbar";
 import Float from "./Float";
 import RNavbar from "./RNavbar/RNavbar"
 import { motion } from 'framer-motion';
+import Footer from "./Footer";
 /**
  * Home section of our website
  * @returns
@@ -31,6 +32,7 @@ function Landing() {
           Explore, Learn and Create from our library of professional note library
         </p>
       </div>
+      <Footer />
     </>
   );
 }

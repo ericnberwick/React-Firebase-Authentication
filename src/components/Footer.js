@@ -8,6 +8,7 @@ import "./Footer.css";
  */
 function Footer() {
   return (
+    <div className="bottom">
     <div className="footer-container">
       <section className="footer-subscription">
         <p className="footer-subscriptiom-heading">
@@ -62,6 +63,7 @@ function Footer() {
         </div>
       </div>
 
+    </div>
     </div>
   );
 }
