@@ -5,6 +5,7 @@ import { useAuth } from "../contexts/AuthContext"
 import { Link, useNavigate } from "react-router-dom"
 import Navbar from "./Navbar.js"
 import FbNavbar from "../FbNavbar"
+import RNavbar from "./RNavbar/RNavbar";
 import "../css/UpdateProfile.css"
 export default function Dashboard() {
   const [error, setError] = useState("")
@@ -25,7 +26,7 @@ export default function Dashboard() {
   return (
     <>
     <div className="everything">
-    <FbNavbar />
+    <RNavbar />
     <div className="thing1">
       <Card>
         

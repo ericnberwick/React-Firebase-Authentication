@@ -1,4 +1,4 @@
-
+import RNavbar from "./RNavbar/RNavbar";
 import FbNavbar from "../FbNavbar";
 import React, { useRef, useState } from "react"
 import { Form, Button, Card, Alert } from "react-bootstrap"
@@ -39,7 +39,7 @@ export default function Signup() {
 
   return (
     <>
-    <FbNavbar />
+    <RNavbar />
     <div className="signbox">
         <Card >
             <Card.Body>

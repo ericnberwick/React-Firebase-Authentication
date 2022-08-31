@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 import Navbar from "./Navbar.js"
 import "../css/UpdateProfile.css"
 import FbNavbar from "../FbNavbar";
-
+import RNavbar from "./RNavbar/RNavbar";
 export default function UpdateProfile() {
   const emailRef = useRef()
   const passwordRef = useRef()
@@ -49,7 +49,7 @@ export default function UpdateProfile() {
   return (
     <>
     <div className="everything">
-    <FbNavbar />
+    <RNavbar />
     <div className="thing1">
       <Card className="thing2">
         <Card.Body>

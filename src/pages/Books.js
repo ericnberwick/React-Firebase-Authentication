@@ -1,5 +1,6 @@
 import Footer from "../components/Footer"
 import FbNavbar from "../FbNavbar"
+import RNavbar from "../components/RNavbar/RNavbar";
 import BookCards from "../components/cards/BookCards"
 import { motion } from 'framer-motion';
 import "../css/pages.css"
@@ -24,7 +25,7 @@ export default function Books() {
 
   return (
   <>
-  <FbNavbar />
+  <RNavbar />
   <div className="cardContainer">
   <motion.div className="home container"
           initial={{ opacity: 0 }}

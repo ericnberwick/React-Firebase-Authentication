@@ -42,7 +42,7 @@ const RNavbar = () => {
       display: 'flex',
       flexDirection: 'column',
       width: '100%',
-      height: '90px'
+      zIndex: 50
     }}>
     <div className="Navbar">
       <span className="nav-logo"><Link className="notebar2" to="/"><img className="notebar" src={noted}/></Link></span>

@@ -1,5 +1,6 @@
 import Footer from "../components/Footer"
 import { motion } from 'framer-motion';
+import RNavbar from "../components/RNavbar/RNavbar";
 import "../css/pages.css"
 import FbNavbar from "../FbNavbar"
 import CookingCards from "../components/cards/CookingCards"
@@ -21,7 +22,7 @@ const containerVariants = {
 export default function Cooking() {
   return (
     <>
-    <FbNavbar />
+    <RNavbar />
     <div className="cardContainer">
     <motion.div className="home container"
           initial={{ opacity: 0 }}

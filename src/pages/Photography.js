@@ -1,4 +1,5 @@
 import FbNavbar from "../FbNavbar"
+import RNavbar from "../components/RNavbar/RNavbar";
 import { motion } from 'framer-motion';
 import "../css/pages.css"
 import PhotographyCards from "../components/cards/PhotographyCards"
@@ -21,7 +22,7 @@ const containerVariants = {
 export default function Photography() {
   return (
     <>
-    <FbNavbar />
+    <RNavbar />
     <div className="cardContainer">
     <motion.div className="home container"
           initial={{ opacity: 0 }}

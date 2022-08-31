@@ -9,7 +9,6 @@ import "./styles.css";
 
 
 
-
 let stripePromise;
 
 const getStripe = () => {
@@ -49,7 +48,7 @@ const Checkout = () => {
   //the cancel and successUrl are to redirect user after checkout successfully and if they cancel
   return (
     <>
-    <FbNavbar />
+    <RNavbar />
     <div className="checkout">
       <h1>not<span className="ed">Ed</span> Checkout</h1>
       <p className="checkout-title">notEd Full Access One Time Account Subscription</p>

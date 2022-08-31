@@ -1,4 +1,5 @@
 import Footer from "../components/Footer"
+import RNavbar from "../components/RNavbar/RNavbar";
 import FbNavbar from "../FbNavbar"
 import TradingCards from "../components/cards/TradingCards"
 import { motion } from 'framer-motion';
@@ -21,7 +22,7 @@ const containerVariants = {
 export default function Trading() {
   return (
     <>
-    <FbNavbar />
+    <RNavbar />
     <div className="cardContainer">
     <motion.div className="home container"
           initial={{ opacity: 0 }}

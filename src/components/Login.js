@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import Navbar from "./Navbar.js"
 import "./logsign.css"
 import FbNavbar from "../FbNavbar";
-
+import RNavbar from "./RNavbar/RNavbar";
 
 export default function Login() {
     const emailRef = useRef()
@@ -38,7 +38,7 @@ export default function Login() {
   return (
     <>
     
-    <FbNavbar />
+    <RNavbar />
     <div className="logcard">
       <Card>
         <Card.Body>
