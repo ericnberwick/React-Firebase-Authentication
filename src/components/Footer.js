@@ -12,7 +12,7 @@ function Footer() {
     <div className="footer-container">
       <section className="footer-subscription">
         <p className="footer-subscriptiom-heading">
-          Join the FUN, Join the PlantED Community!
+          Join the notEd Community!
         </p>
         <p className="footer-subscription-text">
           You can unsubscribe at any time.
