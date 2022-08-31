@@ -32,7 +32,7 @@ export default function Trading() {
     <TradingCards section={"Trading"}/>
     </motion.div>
     </div>
-    
+    <Footer />
     
     </>
     )

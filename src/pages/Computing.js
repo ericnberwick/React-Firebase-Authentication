@@ -1,9 +1,10 @@
-import Footer from "../components/Footer"
+
 import FbNavbar from "../FbNavbar"
 import RNavbar from "../components/RNavbar/RNavbar";
 import Cards from "../components/Cards"
 import { motion } from 'framer-motion';
 import "../css/pages.css"
+import Footer from "../components/Footer";
 const containerVariants = {
   hidden: { 
     opacity: 0, 
@@ -32,6 +33,7 @@ export default function Computing() {
     <Cards section={"Computing"}/>
     </motion.div>
     </div>
+    <Footer />
     
     
     </>

@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.3af1035b.css",
-    "main.js": "/static/js/main.7ba29ecb.js",
+    "main.css": "/static/css/main.6f2ed257.css",
+    "main.js": "/static/js/main.f25dae4f.js",
     "static/media/computer.svg": "/static/media/computer.331b4d8c7648ff40c57271bb6b0d7abe.svg",
     "static/media/back1.png": "/static/media/back1.45ec9a3385f231a6e2cf.png",
     "static/media/security.svg": "/static/media/security.22367233666114c10c1fc053107f3cbe.svg",
+    "static/media/numpy-logo.svg": "/static/media/numpy-logo.e853e8fd62826ee83c30bf064f3db7fe.svg",
     "static/media/note.jpg": "/static/media/note.ed56503e5779f70c3752.jpg",
     "static/media/checkout.jpg": "/static/media/checkout.21a397cddb80d5471476.jpg",
     "static/media/notEdV3.jpg": "/static/media/notEdV3.80ad411c3e6da0ddc781.jpg",
@@ -13,16 +14,27 @@
     "static/media/league-spartan-all-400-normal.woff": "/static/media/league-spartan-all-400-normal.63d127d27993ec6f782d.woff",
     "static/media/limitless.jpg": "/static/media/limitless.c11218a4ba162912b097.jpg",
     "static/media/league-spartan-latin-400-normal.woff2": "/static/media/league-spartan-latin-400-normal.ff90845b5ef1a629271a.woff2",
+    "static/media/data.svg": "/static/media/data.0881c6797fc0446a1611f3b9bb7d85ce.svg",
     "static/media/league-spartan-latin-ext-400-normal.woff2": "/static/media/league-spartan-latin-ext-400-normal.8915f44a464c0038a068.woff2",
+    "static/media/ml.svg": "/static/media/ml.2b64f3b74fbb5b4525a607b93747ea6a.svg",
     "static/media/java.svg": "/static/media/java.b4a0adbd9cd896d2c424c0d7b59f7962.svg",
+    "static/media/pycharm.svg": "/static/media/pycharm.d27141a9f2cc13d2330d59d074c41621.svg",
+    "static/media/intellij.svg": "/static/media/intellij.1faf050ae894674aaa66ff1679da1171.svg",
+    "static/media/note.svg": "/static/media/note.c828840b4c2ff36f26d9d409f68d1297.svg",
     "static/media/league-spartan-vietnamese-400-normal.woff2": "/static/media/league-spartan-vietnamese-400-normal.e8ad14433ca56ca2d3c0.woff2",
     "static/media/sql.svg": "/static/media/sql.b73f27211be01d27a3312e226f1f5c1a.svg",
     "static/media/css.svg": "/static/media/css.1f30572567ede459308647a363d3b036.svg",
+    "static/media/pandas-seeklogo.com.svg": "/static/media/pandas-seeklogo.com.c7d9f9cf211479bcb0efea43d4d05006.svg",
     "static/media/react.svg": "/static/media/react.e68b35f4774979ae220b1d5d7b345b00.svg",
+    "static/media/ecl.svg": "/static/media/ecl.930aaf4f6a57da34c5080476c4cd2612.svg",
+    "static/media/aspnet.svg": "/static/media/aspnet.e2aac1c9344494e5c387ebba560bc230.svg",
     "static/media/user.svg": "/static/media/user.da1f5222f3d4dec4dc498d69d84f4600.svg",
     "static/media/csharp.svg": "/static/media/csharp.04d9d2bb18b9781567f7340691dcc686.svg",
+    "static/media/crime-hacker-icon.svg": "/static/media/crime-hacker-icon.f9d7ab6dfe87582f180e340bb0aa7367.svg",
+    "static/media/leetcode.svg": "/static/media/leetcode.6971d830f6805a54b0a7bf5785ff6245.svg",
     "static/media/python.svg": "/static/media/python.e6d7dc739a91892bbf1f6262412046dd.svg",
     "static/media/logout.svg": "/static/media/logout.f0f142803f279d92925bea1cb4438379.svg",
+    "static/media/vs.svg": "/static/media/vs.f4e2417dfc3ec63d8e22e14c8a9e0e69.svg",
     "static/media/html.svg": "/static/media/html.fe296947d8d83d0d645adbea3115b8a8.svg",
     "static/media/git.svg": "/static/media/git.7bc790e0ea0e59c9d1271d011d119d0a.svg",
     "static/media/cog.svg": "/static/media/cog.8c5b9138d8c4be979ec844f26605245f.svg",
@@ -30,11 +42,11 @@
     "static/media/javascript (1).svg": "/static/media/javascript (1).218515feb76f692771fe00cfeadc46c8.svg",
     "static/media/credit-card.svg": "/static/media/credit-card.85d5c2dbd95d54c99bb153cb15aabe21.svg",
     "static/media/arrow.svg": "/static/media/arrow.2e552680862d14cd24637c6387dfb5b7.svg",
-    "main.3af1035b.css.map": "/static/css/main.3af1035b.css.map",
-    "main.7ba29ecb.js.map": "/static/js/main.7ba29ecb.js.map"
+    "main.6f2ed257.css.map": "/static/css/main.6f2ed257.css.map",
+    "main.f25dae4f.js.map": "/static/js/main.f25dae4f.js.map"
   },
   "entrypoints": [
-    "static/css/main.3af1035b.css",
-    "static/js/main.7ba29ecb.js"
+    "static/css/main.6f2ed257.css",
+    "static/js/main.f25dae4f.js"
   ]
 }
