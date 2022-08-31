@@ -155,10 +155,10 @@ function ComputingDropdownMenu() {
           <DropdownItem className="menuTitle" goToMenu="main" leftIcon={<ArrowIcon />}>
             <h2 className="fh2">Web Development</h2>
           </DropdownItem>
-          <DropdownItem className= "firstItem" leftIcon={<HTMLIcon />}>HTML</DropdownItem>
-          <DropdownItem leftIcon={<CSSIcon />}>CSS</DropdownItem>
-          <DropdownItem leftIcon={<JSIcon />}>JavaScript</DropdownItem>
-          <DropdownItem leftIcon={<ReactIcon />}>React</DropdownItem>
+          <DropdownItem className= "firstItem" leftIcon={<HTMLIcon />}><Link className="alink"  to="/html1">HTML</Link></DropdownItem>
+          <DropdownItem leftIcon={<CSSIcon />}><Link className="alink"  to="/css1">CSS</Link></DropdownItem>
+          <DropdownItem leftIcon={<JSIcon />}><Link className="alink"  to="/js1">JavaScript</Link></DropdownItem>
+          <DropdownItem leftIcon={<ReactIcon />}><Link className="alink"  to="/react">React</Link></DropdownItem>
         </div>
       </CSSTransition>
 
@@ -172,7 +172,7 @@ function ComputingDropdownMenu() {
           <DropdownItem className="menuTitle" goToMenu="main" leftIcon={<ArrowIcon />}>
             <h2 className="fh2">C#</h2>
           </DropdownItem>
-          <DropdownItem className= "firstItem" leftIcon={<VS />}>Visual Studio</DropdownItem>
+          <DropdownItem className= "firstItem" leftIcon={<VS />}><Link className="alink"  to="/comingsoon">Visual Studio</Link></DropdownItem>
           <DropdownItem leftIcon={<Csharp />}>How to C#</DropdownItem>
           <DropdownItem leftIcon={<ASPNET />}>ASP.NET</DropdownItem>
         </div>

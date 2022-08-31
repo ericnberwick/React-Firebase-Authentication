@@ -78,6 +78,8 @@ import Photo6 from "../pages/photo/photo6"
 import Trade1 from "../pages/trading/trade1"
 import Trade2 from "../pages/trading/trade2"
 import Trade3 from "../pages/trading/trade3"
+import Comingsoon from "../pages/computing/ComingSoon"
+
 
 function App() {
   
@@ -93,6 +95,7 @@ function App() {
               <Route exact path="/home" element={<PrivateRoute><Dashboard/></PrivateRoute>} />
               <Route exact path="/update-profile" element={<PrivateRoute><UpdateProfile/></PrivateRoute>} />
               <Route path="/checkout" element={<Checkout />} />
+              <Route path="/comingsoon" element={<Comingsoon/>} />
               <Route path="/trade1" element={<Trade1/>} />
               <Route path="/trade2" element={<Trade2/>} />
               <Route path="/trade3" element={<Trade3/>} />
