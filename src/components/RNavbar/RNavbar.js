@@ -59,7 +59,7 @@ const RNavbar = () => {
 
         
         {loggedIn && <NavItem icon={'Account'}><AccountDropdownMenu></AccountDropdownMenu></NavItem>}
-        {!loggedIn && <Link className="mlink"  to="/login"><NavItem icon={'Sign In'} /></Link>}
+        {!loggedIn && <Link style={{backgroundColor: 'red', padding: '10px', border: '3px solid black'}} className="mlink sigin"  to="/login"><NavItem  icon={'Sign In'} /></Link>}
       
       </div>
       <div
