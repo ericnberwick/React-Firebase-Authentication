@@ -1,6 +1,5 @@
 import Footer from "../components/Footer"
 import FbNavbar from "../FbNavbar"
-import
 import Cards from "../components/Cards"
 import { motion } from 'framer-motion';
 import "../css/pages.css"

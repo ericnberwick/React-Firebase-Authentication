@@ -21,12 +21,19 @@ import { CSSTransition } from 'react-transition-group';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faUserLargeSlash} from '@fortawesome/free-solid-svg-icons';
 import "@fontsource/league-spartan";
-
+import {useAuth} from "../../contexts/AuthContext";
 
 import "./RNavbar.css";
 import noted from "./icons/note.jpg"
 const RNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  var loggedIn;
+  const { currentUser, logout } = useAuth()
+  if (currentUser != null){
+    loggedIn = true;
+  } else {
+    loggedIn = false;
+  }
   return (
     <div class="contentContainer" style={{
       position: 'absolute',
@@ -51,9 +58,8 @@ const RNavbar = () => {
       <Link className="mlink"  to="/university"><NavItem icon={'University'} /></Link>
 
         
-        <NavItem icon={'Account'}>
-        <AccountDropdownMenu></AccountDropdownMenu>
-      </NavItem>
+        {loggedIn && <NavItem icon={'Account'}><AccountDropdownMenu></AccountDropdownMenu></NavItem>}
+        {!loggedIn && <Link className="mlink"  to="/login"><NavItem icon={'Sign In'} /></Link>}
       
       </div>
       <div
