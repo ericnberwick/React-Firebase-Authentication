@@ -14,7 +14,19 @@ import { ReactComponent as Security } from './icons/security.svg';
 import { ReactComponent as Python } from './icons/python.svg';
 import { ReactComponent as ArrowIcon } from './icons/arrow.svg';
 import { ReactComponent as LogoutIcon } from './icons/logout.svg';
+import { ReactComponent as ASPNET } from './icons/aspnet.svg';
+import { ReactComponent as VS } from './icons/vs.svg';
+import { ReactComponent as IntelliJ } from './icons/intellij.svg';
+import { ReactComponent as Ecl } from './icons/ecl.svg';
+import { ReactComponent as Hack } from './icons/crime-hacker-icon.svg';
+import { ReactComponent as ML } from './icons/ml.svg';
+import { ReactComponent as Numpy } from './icons/numpy-logo.svg';
+import { ReactComponent as Pandas } from './icons/pandas-seeklogo.com.svg';
+import { ReactComponent as Pycharm } from './icons/pycharm.svg';
+import { ReactComponent as Data } from './icons/data.svg';
 import { ReactComponent as NoteL } from './icons/note.svg';
+import { ReactComponent as Leet } from './icons/leetcode.svg';
+
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
 import React, { useState, useEffect, useRef } from 'react';
 import { CSSTransition } from 'react-transition-group';
@@ -123,12 +135,13 @@ function ComputingDropdownMenu() {
         <div className="fmenu">
           <DropdownItem leftIcon={<Computer />}><Link className="alink"  to="/computing">Computing</Link></DropdownItem>
           <DropdownItem leftIcon={<ReactIcon />} goToMenu="settings">Web Dev</DropdownItem>
-          <DropdownItem leftIcon={<Csharp />} >C#</DropdownItem>
-          <DropdownItem leftIcon={<Java />}>Java</DropdownItem>
-          <DropdownItem leftIcon={<Python />}>Python</DropdownItem>
+          <DropdownItem leftIcon={<Csharp />} goToMenu="csharp">C#</DropdownItem>
+          <DropdownItem leftIcon={<Java />} goToMenu="java">Java</DropdownItem>
+          <DropdownItem leftIcon={<Python />} goToMenu="python">Python</DropdownItem>
           <DropdownItem leftIcon={<Sql />}>SQL</DropdownItem>
           <DropdownItem leftIcon={<Security />}>Security</DropdownItem>
           <DropdownItem leftIcon={<Git />} >Git</DropdownItem>
+          <DropdownItem leftIcon={<Leet />} >Leet Code</DropdownItem>
         </div>
       </CSSTransition>
 
@@ -148,6 +161,59 @@ function ComputingDropdownMenu() {
           <DropdownItem leftIcon={<ReactIcon />}>React</DropdownItem>
         </div>
       </CSSTransition>
+
+      <CSSTransition
+        in={activeMenu === 'csharp'}
+        timeout={500}
+        classNames="menu-secondary"
+        unmountOnExit
+        onEnter={calcHeight}>
+        <div className="fmenu">
+          <DropdownItem className="menuTitle" goToMenu="main" leftIcon={<ArrowIcon />}>
+            <h2 className="fh2">C#</h2>
+          </DropdownItem>
+          <DropdownItem className= "firstItem" leftIcon={<VS />}>Visual Studio</DropdownItem>
+          <DropdownItem leftIcon={<Csharp />}>How to C#</DropdownItem>
+          <DropdownItem leftIcon={<ASPNET />}>ASP.NET</DropdownItem>
+        </div>
+      </CSSTransition>
+
+      <CSSTransition
+        in={activeMenu === 'java'}
+        timeout={500}
+        classNames="menu-secondary"
+        unmountOnExit
+        onEnter={calcHeight}>
+        <div className="fmenu">
+          <DropdownItem className="menuTitle" goToMenu="main" leftIcon={<ArrowIcon />}>
+            <h2 className="fh2">Java</h2>
+          </DropdownItem>
+          <DropdownItem className= "firstItem" leftIcon={<IntelliJ />}>IntelliJ</DropdownItem>
+          <DropdownItem leftIcon={<Java />}>How to Java</DropdownItem>
+          <DropdownItem leftIcon={<Ecl />}>Testing</DropdownItem>
+        </div>
+      </CSSTransition>
+
+      <CSSTransition
+        in={activeMenu === 'python'}
+        timeout={500}
+        classNames="menu-secondary"
+        unmountOnExit
+        onEnter={calcHeight}>
+        <div className="fmenu">
+          <DropdownItem className="menuTitle" goToMenu="main" leftIcon={<ArrowIcon />}>
+            <h2 className="fh2">Python</h2>
+          </DropdownItem>
+          <DropdownItem className= "firstItem" leftIcon={<Pycharm />}>PyCharm</DropdownItem>
+          <DropdownItem leftIcon={<Python />}>How to Python</DropdownItem>
+          <DropdownItem leftIcon={<Numpy />}>Numpy</DropdownItem>
+          <DropdownItem leftIcon={<Pandas />}>Pandas</DropdownItem>
+          <DropdownItem leftIcon={<Data />}>Data Science</DropdownItem>
+          <DropdownItem leftIcon={<ML />}>Machine Learning</DropdownItem>
+          <DropdownItem leftIcon={<Hack />}>Hack Your Life </DropdownItem>
+        </div>
+      </CSSTransition>
+
 
       <CSSTransition
         in={activeMenu === 'animals'}
