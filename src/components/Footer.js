@@ -1,16 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
-
+import {useAuth} from "../contexts/AuthContext";
 /**
  * Footer for the bottom of each page, some links, newsletter and socials
  * @returns Simply a footer for our application
  */
 function Footer() {
+  var loggedIn;
+  const { currentUser, logout } = useAuth()
+  if (currentUser != null){
+    loggedIn = true;
+  } else {
+    loggedIn = false;
+  }
   return (
     <div className="bottom">
     <div className="footer-container">
-      <section className="footer-subscription">
+      {/* <section className="footer-subscription">
         <p className="footer-subscriptiom-heading">
           Join the notEd Community!
         </p>
@@ -29,37 +36,40 @@ function Footer() {
             <button buttonStyle="btn--planted">Subscribe</button>
           </form>
         </div>
-      </section>
+      </section> */}
       <div className="footer-links">
         <div className="footer-links-wraper">
           <div className="footer-link-items">
-            <h2>Home</h2>
-            {/* <Link>My propogator</Link>
-            <Link>Previous Plants</Link>
-            <Link>Plant History</Link>
-            <Link>Stop Motion</Link> */}
+          <Link to="/"><h2>Home</h2></Link>
+            <Link to="/computing">Computing</Link>
+            <Link to="/cooking">Cooking</Link>
+            <Link to="/photography">Photography</Link>
+            <Link to="/trading">Trading</Link>
+            <Link to="/university">University</Link>
           </div>
         </div>
         <div className="footer-link-items">
-          <h2>About Us</h2>
-          {/* <Link>The Team</Link>
-          <Link>Our Goals</Link>
-          <Link>How it started?</Link>
-          <Link>Support Us!</Link> */}
+        <Link to="/"><h2>About Us</h2></Link>
+          <Link to="/computing">What is notEd</Link>
+          <Link to="/cooking">How to use notEd</Link>
+          <Link to="/photography">How to Add your own notes</Link>
         </div>
         <div className="footer-link-items">
-          <h2>Explore</h2>
-          {/* <Link>Growth</Link>
-          <Link>Health</Link>
-          <Link>Cooking</Link>
-          <Link to="/tutorial">User Guide</Link> */}
+        <Link to="/"><h2>Explore</h2></Link>
+          <Link to="/computing">Complete Courses</Link>
+          <Link to="/cooking">One off notes</Link>
+          <Link to="/photography">Photography</Link>
         </div>
         <div className="footer-link-items">
-          <h2>Contact Us</h2>
-          {/* <Link>Email</Link>
-          <Link>Socials</Link>
-          <Link>FAQs</Link>
-          <Link></Link> */}
+        <Link to="/home"><h2>Account</h2></Link>
+          {loggedIn && <Link to="/home">Update profile</Link>}
+          {!loggedIn && <Link to="/login">Update profile</Link>}
+
+          {loggedIn && <Link to="/update-profile">Reset Password</Link>}
+          {!loggedIn && <Link to="/login">Reset Password</Link>}
+          
+          {loggedIn && <Link to="/home">Logout</Link>}
+          {!loggedIn && <Link to="/login">Logout</Link>}
         </div>
       </div>
 
