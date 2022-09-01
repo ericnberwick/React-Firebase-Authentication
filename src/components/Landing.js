@@ -31,6 +31,10 @@ function Landing() {
         <p className="para">
           Explore, Learn and Create from our library of professional note library
         </p>
+        {/* <div className="get-started-section">
+          <h1>Getting Started</h1>
+
+        </div> */}
       </div>
       <Footer />
     </>
